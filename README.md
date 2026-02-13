@@ -1,8 +1,8 @@
 # Oracle_pdb_-ass-_II_27086_Paule-Celeste
----Assignment II: Database Creation, Deletion & OEM  
----Student: Paule Celeste MIMBA ESSONE
----StudentID: 27086
----Date: 2026-10-03 -- 2026-02-16 at 11:59
+-Assignment II: Database Creation, Deletion & OEM  
+-Student: Paule Celeste MIMBA ESSONE
+-StudentID: 27086
+-Date: 2026-10-03 -- 2026-02-16 at 11:59
 
 ##Overview
 Task 1: Created PDB us_pdb_27086 and admin user MIMBA_plsqlauca_27086.
