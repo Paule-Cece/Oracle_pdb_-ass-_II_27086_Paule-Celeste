@@ -131,8 +131,11 @@ WHERE name LIKE '%DELETE%';
 **🖼️ Evidence**
 
 All screenshots are stored in the screenshots folder:
+
 -PDB creation
+
 -PDB deletion
+
 -EM Express dashboard
 
 ---
