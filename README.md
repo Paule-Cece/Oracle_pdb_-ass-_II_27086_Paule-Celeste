@@ -25,6 +25,16 @@ This assignment focuses on Oracle 21c multitenant administration.
 -Evidence collection (screenshots)
 
 ---
+**Oracle Environment Used**
+Oracle Database Version: 19c/21c (Multitenant Architecture)
+
+Container Database (CDB): CDB$ROOT
+
+Host: Oracle Database Server
+
+Tools Used: SQL*Plus, SQL Developer, Oracle Enterprise Manager (OEM)
+
+---
 **🎯 Tasks summary**
 
 **Task 1 – PDB and admin user creation**
@@ -130,14 +140,7 @@ All screenshots are stored in the screenshots folder:
 
 All assignment objectives have been successfully met and exceeded. Created and configured PDB us_pdb_27086 with user MIMBA_plsqlauca_27086, demonstrated complete PDB lifecycle management by creating and deleting us_to_delete_pdb_27086, and provided comprehensive documentation with screenshots. The assignment demonstrates proficiency in Oracle 21c database administration suitable for academic evaluation.
 
----
-**Oracle Environment Used**
-Oracle Database Version: 19c/21c (Multitenant Architecture)
 
-Container Database (CDB): CDB$ROOT
+**Submitted by:** MIMBA ESSONE Paule Celeste (27086) 
 
-Host: Oracle Database Server
 
-Tools Used: SQL*Plus, SQL Developer, Oracle Enterprise Manager (OEM)
-
-Submitted by: MIMBA ESSONE Paule Celeste (27086) Submission Date: Février 16, 2026
