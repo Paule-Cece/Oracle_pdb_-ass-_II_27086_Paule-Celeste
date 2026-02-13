@@ -12,15 +12,24 @@
 
 **📌 Repository structure**
 
-'''Oracle_pdb_ass_II_27086_Paule-Celeste
+Oracle_pdb_ass_II_27086_Paule-Celeste
+
 │
+
 ├─ README.md
+
 ├─ scripts
+
 │   ├─ create_pdb.sql
+
 │   └─ create_then_drop_pdb.sql
+
 └─ screenshots
+
     ├─ em_express_dashboard.png
+    
     ├─ pdb_created.png
+    
     └─ pdb_deleted.png
 ---
 
@@ -116,10 +125,15 @@ WHERE name LIKE '%DELETE%';
 **⚠️ Issues encountered and fixes**
 
 .Missing libaio.so.1 → installed /    created symlink.
+
 .Permission issues while converting RPM → used alien --scripts and ensured directories owned by Oracle.
+
 .Issues in getting oracle bin path
+
 .File path error: Corrected from *C:\app\Oracle\... to C:\ORACLE21C\...*
+
 .Solution: Used the correct installation path shown in error message
+
 .Oracle Enterprise Manager not found in standard installation(I am still working on it)
 
 ---
