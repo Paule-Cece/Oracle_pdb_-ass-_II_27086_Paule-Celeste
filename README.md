@@ -8,6 +8,7 @@ Date: 2026-10-03 -- 2026-02-16 at 11:59
 Task 1: Created PDB us_pdb_27086 and admin user MIMBA_plsqlauca_27086.
 Task 2: Created and then deleted PDB us_to_delete_pdb_27086.
 Task 3: Accessed EM Express and captured dashboard.
+
 ##Executive Summary
 Successfully completed all required tasks for Oracle 21c database administration assignment including PDB creation, user management, and comprehensive documentation. All objectives achieved with detailed evidence.
 
