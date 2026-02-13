@@ -1,8 +1,8 @@
 # Oracle_pdb_-ass-_II_27086_Paule-Celeste
-Assignment II: Database Creation, Deletion & OEM
-Student: Paule Celeste MIMBA ESSONE
-StudentID: 27086
-Date: 2026-10-03 -- 2026-02-16 at 11:59
+---Assignment II: Database Creation, Deletion & OEM  
+---Student: Paule Celeste MIMBA ESSONE
+---StudentID: 27086
+---Date: 2026-10-03 -- 2026-02-16 at 11:59
 
 ##Overview
 Task 1: Created PDB us_pdb_27086 and admin user MIMBA_plsqlauca_27086.
@@ -13,7 +13,42 @@ Task 3: Accessed EM Express and captured dashboard.
 Successfully completed all required tasks for Oracle 21c database administration assignment including PDB creation, user management, and comprehensive documentation. All objectives achieved with detailed evidence.
 
 ##Commands used
+sqlplus / as sysdba
+ALTER USER system IDENTIFIED BY new_password;
+ALTER USER sys IDENTIFIED BY new_password;
+ALTER USER victoire IDENTIFIED BY new_password123;
+CREATE USER victoire IDENTIFIED BY your_password;
+GRANT CONNECT, RESOURCE TO victoire;
+-- Show all PDBs
+SELECT name, open_mode FROM v$pdbs;
 
+-- Verify your PDB
+ALTER SESSION SET CONTAINER = us_pdb_27269;
+
+-- Verify your user
+SELECT username, account_status, created FROM dba_users 
+WHERE username = 'USHINDI_PLSQLAUCA_27269';
+
+-- Show user privileges
+SELECT privilege FROM dba_sys_privs 
+WHERE grantee = 'USHINDI_PLSQLAUCA_27269';
+See create_pdb.sql and create_then_drop_pdb.sql
+
+-- Created temporary PDB
+CREATE PLUGGABLE DATABASE us_to_delete_pdb_27269
+ADMIN USER temp_admin IDENTIFIED BY temp123
+FILE_NAME_CONVERT = ('C:\\ORACLE21C\\ORADATA\\ORCL\\PDBSEED\\', 'C:\\ORACLE21C\\ORADATA\\ORCL\\US_TO_DELETE_PDB_27269\\');
+
+-- Verified creation
+SELECT name, open_mode FROM v$pdbs WHERE name LIKE '%DELETE%';
+
+-- Deleted PDB
+DROP PLUGGABLE DATABASE us_to_delete_pdb_27269 INCLUDING DATAFILES;
+
+-- Verified deletion
+SELECT name, open_mode FROM v$pdbs WHERE name LIKE '%DELETE%';
+
+ect ...
 
 ##Issues encountered and fixes
 .Missing libaio.so.1 → installed /    created symlink.
