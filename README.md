@@ -3,7 +3,7 @@
 **-Student:** Paule Celeste MIMBA ESSONE
 **-StudentID:** 27086
 **-Date:** 2026-10-03 -- 2026-02-16 at 11:59
-
+---
 
 **📌 Repository structure**
 
