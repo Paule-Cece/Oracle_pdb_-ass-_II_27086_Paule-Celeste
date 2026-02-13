@@ -1,7 +1,11 @@
 # Oracle_pdb_-ass-_II_27086_Paule-Celeste
+
 **-Assignment II:** Database Creation, Deletion & OEM  
+
 **-Student:** Paule Celeste MIMBA ESSONE
+
 **-StudentID:** 27086
+
 **-Date:** 2026-10-03 -- 2026-02-16 at 11:59
 
 ---
@@ -128,6 +132,7 @@ All screenshots are stored in the screenshots folder:
 
 ---
 **Conclusion**
+
 All assignment objectives have been successfully met and exceeded. Created and configured PDB us_pdb_27086 with user MIMBA_plsqlauca_27086, demonstrated complete PDB lifecycle management by creating and deleting us_to_delete_pdb_27086, and provided comprehensive documentation with screenshots. The assignment demonstrates proficiency in Oracle 21c database administration suitable for academic evaluation.
 
 Submitted by: MIMBA ESSONE Paule Celeste (27086) Submission Date: Février 16, 2026
