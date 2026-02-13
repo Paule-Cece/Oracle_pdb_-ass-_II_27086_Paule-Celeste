@@ -86,8 +86,11 @@ WHERE grantee = 'MIMBA_PLSQLAUCA_27086';
 
 ---
 **📁 SQL scripts**
+
 The SQL scripts used in this assignment are stored in the scripts folder:
+   
    *-create_pdb.sql*
+   
    *-create_then_drop_pdb.sql*
 
   --- 
