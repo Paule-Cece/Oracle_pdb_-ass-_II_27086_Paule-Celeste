@@ -3,6 +3,7 @@
 **-Student:** Paule Celeste MIMBA ESSONE
 **-StudentID:** 27086
 **-Date:** 2026-10-03 -- 2026-02-16 at 11:59
+
 ---
 
 **📌 Repository structure**
@@ -17,7 +18,7 @@
     ├─ em_express_dashboard.png
     ├─ pdb_created.png
     └─ pdb_deleted.png
-
+---
 
 **📝 Assignment overview**
 This assignment focuses on Oracle 21c multitenant administration.
@@ -29,7 +30,7 @@ This assignment focuses on Oracle 21c multitenant administration.
 -Access to Oracle EM Express
 -Evidence collection (screenshots)
 
-
+---
 **🎯 Tasks summary**
 
 **Task 1 – PDB and admin user creation**
@@ -44,12 +45,12 @@ This assignment focuses on Oracle 21c multitenant administration.
   -Accessed Oracle EM Express
   -Captured the dashboard as evidence
 
-
+---
 **📊 Executive summary**
 Successfully completed all required tasks for Oracle 21c database administration assignment including PDB creation, user management, and comprehensive documentation.
 All objectives achieved with detailed evidence.
 
-
+---
 **💻 Main commands used**
 
 *-- Connect as SYSDBA*
@@ -79,13 +80,13 @@ SELECT privilege
 FROM dba_sys_privs
 WHERE grantee = 'MIMBA_PLSQLAUCA_27086';
 
-
+---
 **📁 SQL scripts**
 The SQL scripts used in this assignment are stored in the scripts folder:
    *-create_pdb.sql*
    *-create_then_drop_pdb.sql*
 
-   
+  --- 
 **🗄️ Temporary PDB creation and deletion**
 
 CREATE PLUGGABLE DATABASE us_to_delete_pdb_27086
@@ -107,7 +108,7 @@ SELECT name, open_mode
 FROM v$pdbs
 WHERE name LIKE '%DELETE%';
 
-
+---
 **⚠️ Issues encountered and fixes**
 
 .Missing libaio.so.1 → installed /    created symlink.
@@ -117,7 +118,7 @@ WHERE name LIKE '%DELETE%';
 .Solution: Used the correct installation path shown in error message
 .Oracle Enterprise Manager not found in standard installation(I am still working on it)
 
-
+---
 **🖼️ Evidence**
 
 All screenshots are stored in the screenshots folder:
@@ -125,6 +126,7 @@ All screenshots are stored in the screenshots folder:
 -PDB deletion
 -EM Express dashboard
 
+---
 **Conclusion**
 All assignment objectives have been successfully met and exceeded. Created and configured PDB us_pdb_27086 with user MIMBA_plsqlauca_27086, demonstrated complete PDB lifecycle management by creating and deleting us_to_delete_pdb_27086, and provided comprehensive documentation with screenshots. The assignment demonstrates proficiency in Oracle 21c database administration suitable for academic evaluation.
 
