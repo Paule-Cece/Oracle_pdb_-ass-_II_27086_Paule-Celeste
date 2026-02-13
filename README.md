@@ -29,9 +29,13 @@ This assignment focuses on Oracle 21c multitenant administration.
   The following tasks were completed:
   
 -Creation of a pluggable database (PDB)
+
 -Creation of an administrative user
+
 -Creation and deletion of a temporary PDB
+
 -Access to Oracle EM Express
+
 -Evidence collection (screenshots)
 
 ---
