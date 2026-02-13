@@ -1,13 +1,13 @@
 # Oracle_pdb_-ass-_II_27086_Paule-Celeste
--Assignment II: Database Creation, Deletion & OEM  
--Student: Paule Celeste MIMBA ESSONE
--StudentID: 27086
--Date: 2026-10-03 -- 2026-02-16 at 11:59
+**-Assignment II:** Database Creation, Deletion & OEM  
+**-Student:** Paule Celeste MIMBA ESSONE
+**-StudentID:** 27086
+**-Date:** 2026-10-03 -- 2026-02-16 at 11:59
 
 
 **📌 Repository structure**
 
-Oracle_pdb_ass_II_27086_Paule-Celeste
+'''Oracle_pdb_ass_II_27086_Paule-Celeste
 │
 ├─ README.md
 ├─ scripts
