@@ -10,20 +10,6 @@
 
 ---
 
-**📌 Repository structure**
-
-Oracle_pdb_ass_II_27086_Paule-Celeste
-│
-├─ README.md
-├─ scripts
-│   ├─ create_pdb.sql
-│   └─ create_then_drop_pdb.sql
-└─ screenshots
- ├─ em_express_dashboard.png 
-    ├─ pdb_created.png
-    └─ pdb_deleted.png
----
-
 **📝 Assignment overview**
 This assignment focuses on Oracle 21c multitenant administration.
   The following tasks were completed:
