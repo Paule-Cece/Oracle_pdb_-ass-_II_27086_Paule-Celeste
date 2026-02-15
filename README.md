@@ -50,7 +50,9 @@ Tools Used: SQL*Plus, SQL Developer, Oracle Enterprise Manager (OEM)
   -Deleted the same PDB after verification
 
 **Task 3 – EM Express access**
+  
   -Accessed Oracle EM Express
+  
   -Captured the dashboard as evidence
 
 ---
