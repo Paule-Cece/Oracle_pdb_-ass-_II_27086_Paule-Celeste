@@ -38,11 +38,15 @@ Tools Used: SQL*Plus, SQL Developer, Oracle Enterprise Manager (OEM)
 **🎯 Tasks summary**
 
 **Task 1 – PDB and admin user creation**
+ 
   -Created PDB: *us_pdb_27086*
+ 
   -Created administrative user: *MIMBA_plsqlauca_27086*
 
 **Task 2 – Temporary PDB creation and deletion**
+ 
   -Created temporary PDB: *us_to_delete_pdb_27086*
+ 
   -Deleted the same PDB after verification
 
 **Task 3 – EM Express access**
